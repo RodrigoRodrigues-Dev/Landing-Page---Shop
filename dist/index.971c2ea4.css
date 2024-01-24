@@ -1,0 +1,100 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap";
+* {
+  box-sizing: border-box;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  list-style: none;
+}
+
+.hero {
+  background-image: url("image-hero.aa501416.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.hero .container {
+  height: inherit;
+  position: relative;
+}
+
+.hero__content {
+  width: 100%;
+  max-width: 670px;
+  height: 387px;
+  margin-bottom: 5%;
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.hero__content__title {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.hero__content__sub-title {
+  margin-bottom: 5px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.hero__list {
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+  display: none;
+}
+
+.hero__list__item {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.hero__list__item span {
+  font-size: 90px;
+  font-weight: bold;
+}
+
+@media (width <= 768px) {
+  .hero__list__item span {
+    font-size: 70px;
+  }
+}
+
+.hero__list__item p {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.hero__list--is-active {
+  display: flex;
+}
+
+.hero .soldOff {
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  font-size: 40px;
+  font-weight: bold;
+  display: none;
+}
+
+.hero .soldOff--is-active {
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=index.971c2ea4.css.map */
