@@ -48,7 +48,7 @@
   align-items: center;
   width: 100%;
   height: 80%;
-  display: flex;
+  display: none;
 }
 
 .hero__list__item {
@@ -71,6 +71,24 @@
 .hero__list__item p {
   font-size: 15px;
   font-weight: normal;
+}
+
+.hero__list--is-active {
+  display: flex;
+}
+
+.hero .soldOff {
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  font-size: 40px;
+  font-weight: bold;
+  display: none;
+}
+
+.hero .soldOff--is-active {
+  display: flex;
 }
 
 .container {
