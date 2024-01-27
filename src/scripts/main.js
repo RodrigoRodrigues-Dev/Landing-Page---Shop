@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const promotionDuration = new Date("jan 27, 2024 00:00:00");
+    const promotionDuration = new Date("jan 28, 2024 00:00:00");
     const timeStampPromotion = promotionDuration.getTime();
 
     const countsHours = setInterval(() => {

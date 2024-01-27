@@ -580,7 +580,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"3cYfC":[function(require,module,exports) {
 document.addEventListener("DOMContentLoaded", ()=>{
-    const promotionDuration = new Date("jan 25, 2024 00:00:00");
+    const promotionDuration = new Date("jan 28, 2024 00:00:00");
     const timeStampPromotion = promotionDuration.getTime();
     const countsHours = setInterval(()=>{
         const now = new Date();
